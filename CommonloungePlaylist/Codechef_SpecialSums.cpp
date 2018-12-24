@@ -17,7 +17,7 @@ ll getSpecialSum(vector<ll> A, vector<ll> pref){
     }
 
     for(int i=1; i<n;++i){
-            //For i<j
+        //For i<j
         res = max(res, diff[i-1]+A[i]+pref[i-1]);
     }
 
